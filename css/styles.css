@@ -1,0 +1,194 @@
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section__title {
+  text-align: center;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list__item--special {
+  color: #ff0000;
+}
+
+.conclusion {
+  color: #ee82ee;
+}
+
+.outer-box {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1000px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 1px solid #000000;
+}
+
+.inner-box {
+  width: 160px;
+  height: 200px;
+
+  border: 1px solid #000000;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.auto {
+  overflow: auto;
+}
+
+.info {
+  margin: 0;
+  color: #ff0000;
+}
+
+.text {
+  margin-top: 2px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.wrapper {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 3px solid #000000;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+
+  border: 1px solid #000000;
+}
+
+.box-1 {
+  background-color: #ff0000;
+}
+
+.box-2 {
+  position: relative;
+  top: 30px;
+  right: 70px;
+  background-color: #ffff00;
+}
+
+.box-3 {
+  position: relative;
+  top: 20px;
+  left: 80px;
+  background-color: #008000;
+}
+
+.box-4,
+.box-8 {
+  background-color: #0000ff;
+}
+
+.box-5 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  background-color: #ff0000;
+}
+
+.box-6 {
+  background-color: #ffff00;
+}
+
+.box-7 {
+  background-color: #008000;
+}
+
+.abs {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+
+  background-color: #ee82ee;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: #ffff00;
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+
+.notification {
+  color: #ff0000;
+
+  text-align: center;
+}
+
+.some {
+  width: 500px;
+  height: 300px;
+
+  border: 3px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+
+  overflow: scroll;
+}
+
+.sticky {
+  position: sticky;
+  top: 20px;
+  left: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: #00ffff;
+
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
